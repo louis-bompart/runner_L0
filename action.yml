@@ -19,6 +19,6 @@ runs:
   steps:
     - run: echo hello world
       shell: bash
-    - uses: actions/setup-node@v2
+    - uses: actions/setup-node@v3
       with:
-        node-version: '14'
+        node-version: '18'
