@@ -17,5 +17,5 @@ color: 'green' # optional, decorates the entry in the GitHub Marketplace
 runs:
   using: "composite"
   steps:
-    - uses: TingluoHuang/runner_L0@RepositoryActionWithWrapperActionfile_Node
-    - uses: TingluoHuang/runner_L0@RepositoryActionWithWrapperActionfile_Docker
+    - uses: louis-bompart/runner_L0@RepositoryActionWithWrapperActionfile_Node
+    - uses: louis-bompart/runner_L0@RepositoryActionWithWrapperActionfile_Docker
